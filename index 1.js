@@ -5,7 +5,7 @@ const { addTask, listTasks, removeTask, updateTask  } = require("./tasks");
 addTask("Estudiar Node.js");
 addTask("Practicar JavaScript");
 addTask("Hacer ejercicio");
-
+addTask("ir al supermercado")
 // Listar tareas
 listTasks();
 
@@ -13,10 +13,8 @@ listTasks();
 removeTask(1);
 
 // Llamamos a la función para actualizar una tarea
-updateTask(1);
+updateTask(1,"compar herlado");
 
-// Mostramos las tareas después de la actualización
-console.log("Tareas después de actualizar:", tasks);
 
 // Listar nuevamente para verificar
-listTasks();
+listTasks(); 
