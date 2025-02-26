@@ -44,4 +44,4 @@ function updateTask(index, newTask) {
 }
 
 // Exportaciones de funciones 
- module.exports = { addTask, listTasks, removeTask, };
+ module.exports = { addTask, listTasks, removeTask,updateTask };
