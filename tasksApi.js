@@ -40,8 +40,3 @@ app.put("/tasks/:id", (req, res) => {
     res.json({ message: "Tarea actualizada" });
 });
 
-// Iniciar el servidor
-const PORT = 3000;
-app.listen(PORT, () => {
-    console.log(`API corriendo en http://localhost:${PORT}`);
-});
